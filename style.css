@@ -1,0 +1,392 @@
+:root{
+    --pink:#F7374F;
+    --violet:#88304E;
+    --litevio:#522546;
+    --grey:#2C2C2C;
+    --white:white;
+}
+body{
+    margin:0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.landing{
+    background-image: url(pexels-allphoto-bangkok-1628521-13916411.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100lvh;
+    border-radius: 8% 0%;
+}
+
+
+.adv{
+    color:var(--white);
+    flex:2;
+    font-weight: bold;
+    padding-left: 10px;
+    min-width: 680px;
+}
+.home{
+    color: var(--pink);
+    text-decoration: none;
+}
+
+a{
+    color: var(--white);
+    text-decoration: none;
+    min-width: 48px;
+    cursor: pointer;
+    transition-duration: 1s;
+   
+    
+}
+a:hover{
+    color: var(--pink);
+    transform: scale(1.2);
+    transition: 3s;
+}
+.but{
+    color: var(--white);
+    background-color: var(--pink);
+    border-radius: 8px;
+    border-color: var(--pink);
+    flex:1;
+    font-size: large;
+    font-weight: bold;
+    min-width: 48px;
+    cursor: pointer;
+  
+}
+.but:hover{
+    color: var(--pink);
+    background-color: var(--white);
+    border-color: var(--white);
+    transform: scale(1.2);
+    transition: 3s;
+}
+.start{
+    display:flex;
+    flex-wrap:wrap;
+    
+}
+nav{
+    display:flex;
+    flex:1;
+    position: relative;
+    top:31px;
+}
+a{
+    flex:1;
+    font-size: large;
+    font-weight: bold;
+}
+.exp{
+    color:var(--white);
+}
+.won{
+    color:var(--white);
+    position: relative;
+    bottom:14px;
+
+}
+.lear{
+    color: var(--white);
+    background-color: var(--pink);
+    border-radius: 10px;
+    border-color: var(--pink);
+    font-size: 0.6cm;
+    font-weight: bolder;
+    width:160px;
+    cursor: pointer;
+   
+}
+.lear:hover{
+    color:var(--pink);
+    background-color: var(--white);
+    border-color: var(--white);
+}
+    
+    
+.middle{
+    display:grid;
+    place-items: center;
+    position: relative;
+    top:160px;
+}
+hr{
+    color: var(--violet);
+    width:68px;
+    height:2px;
+    border-radius: 6px;
+    background-color:var(--pink);
+    border-color: var(--pink);
+    position: relative;
+    bottom:20px;
+}
+
+
+
+
+
+.up{
+    color:var(--violet);
+    text-align: center;
+}
+.line{
+    
+    width:68px;
+    height:2px;
+    border-radius: 6px;
+    background-color:var(--pink);
+    border-color: var(--pink);
+    position: relative;
+    bottom:16px;
+
+}
+.all{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(490px,2fr));
+}
+.photo{
+    width: 400px;
+    height:300px;
+    border-radius: 20% 0%;
+    cursor: pointer;
+}
+.ever{
+    color:var(--violet);
+    position: relative;
+    top:8px;
+
+}
+.one{
+    color:var(--litevio);
+    padding-left: 13px;
+    position: relative;
+    bottom:12px;
+}
+.mo{
+    color: var(--white);
+    background-color: var(--pink);
+    border-radius: 8px;
+    border-color: var(--pink);
+    flex:1;
+    font-size: large;
+    font-weight: bold;
+    min-width: 48px;
+    cursor: pointer;
+    position: relative;
+    bottom:12px;
+
+}
+.mo:hover{
+    color: var(--pink);
+    background-color: var(--white);
+    border-color: var(--white);
+}
+.rest{
+     color:var(--violet);
+     position:relative;
+     top:8px;
+
+}
+.two{
+    color:var(--litevio);
+    padding-left: 13px;
+    position: relative;
+    bottom:10px;
+}
+.re{
+    color: var(--white);
+    background-color: var(--pink);
+    border-radius: 8px;
+    border-color: var(--pink);
+    flex:1;
+    font-size: large;
+    font-weight: bold;
+    min-width: 48px;
+    cursor: pointer;
+    position: relative;
+    bottom:13px;
+
+}
+.re:hover{
+    color: var(--pink);
+    background-color: var(--white);
+    border-color: var(--white);
+}
+.man{
+    
+    display: grid;
+    place-items: center;
+}
+.woman{
+    
+    display: grid;
+     place-items: center;
+    
+}
+.photo:hover{
+    transform:rotateY(180deg);
+    transition: 3s;
+}
+
+
+
+
+
+.all1{
+    background-image:url(pexels-yaroslav-shuraev-8968671.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100lvh;
+    
+   
+    
+}
+.world{
+    color: var(--white);
+    padding-left: 200px;
+     padding-top: 100px;
+    
+
+
+    
+}
+.lorem{
+    color: var(--white);
+    padding-left: 60px;
+     padding-top: 6px;
+    
+
+}
+.switch{
+   color: var(--white);
+    background-color: var(--pink);
+    border-radius: 10px;
+    border-color: var(--pink);
+    font-size: 0.6cm;
+    font-weight: bolder;
+    width:160px;
+    cursor: pointer;
+  
+   
+}
+.switch:hover{
+    color:var(--pink);
+    background-color: var(--white);
+    border-color: var(--white);
+}
+.round{
+    padding-left: 248px;
+    padding-top: 38px;
+}
+
+
+
+
+
+.all3{
+    display:flex;
+    flex-wrap: wrap;
+    margin:60px;
+    row-gap: 6em;
+}
+.com{
+    color: var(--violet);
+    
+
+}
+.para{
+    color: var(--violet);
+    
+
+}
+.last{
+    color: var(--white);
+    background-color: var(--pink);
+    border-radius: 8px;
+    border-color: var(--pink);
+    flex:1;
+    font-size: large;
+    font-weight: bold;
+    min-width: 48px;
+    cursor: pointer;
+   
+
+}
+.last:hover{
+    color: var(--pink);
+    background-color: var(--white);
+    border-color: var(--white);
+}
+.pic{
+    width: 260px;
+    height:260px;
+    padding:4px;
+    border-radius: 30px;
+    cursor: pointer;
+   
+}  
+.pic:hover{
+    transform: scale(1.1);
+    transition: 3s;
+}  
+.pho{
+     width: 260px;
+    height:260px;
+    padding:4px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+.pho:hover{
+    transform: scale(1.1);
+    transition: 3s;
+}
+.stand{
+    
+    position: relative;
+    top:60px;
+    flex:3;
+    min-width: 430px;
+    
+}
+.hey{
+    flex:3;
+    
+}
+.side{
+    min-width: 430px;
+    
+    
+}
+
+.aside{
+    min-width: 430px;
+   
+    
+}
+footer{
+    background-color: var(--grey);
+    color: var(--white);
+    text-align: center;
+    padding:4px;
+    border-radius: 30px;
+    cursor: pointer;
+   
+}
+footer:hover{
+    color:var(--grey);
+    background-color: var(--white);
+   
+
+}
+
+
+
+
+
+
+
+
+
